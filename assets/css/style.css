@@ -1,0 +1,39 @@
+/*Resetear el Navegador*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+	background-color: #F78E69;
+  min-height: 15em;
+  padding: 10px 60px;
+}
+
+h1 {
+  margin-top: 1em;
+  font-size: 54px;
+  color: #FFF;
+  text-align: right;
+}
+
+h2 {
+  color: #FFF;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.home-panda {
+  background-repeat: no-repeat;
+ 
+  width: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
