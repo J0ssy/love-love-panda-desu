@@ -7,6 +7,8 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: #F78E69;
+  color: #FFF;
 }
 
 .navbar {
@@ -18,12 +20,11 @@ body {
 h1 {
   margin-top: 1em;
   font-size: 54px;
-  color: #FFF;
   text-align: right;
 }
 
 h2 {
-  color: #FFF;
+
   margin-top: 25px;
   font-size: 18px;
   font-weight: 300;
@@ -32,8 +33,82 @@ h2 {
 
 .home-panda {
   background-repeat: no-repeat;
- 
   width: 100%;
+  height: 25em;
+  background-position: center;
+  object-fit: cover;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
+
+.line {
+  background-color: #F78E69;
+  width: 100%;
+  height: 1em;
+}
+
+
+.first-section {
+  background-color: #ABE188;
+  height: 30em;
+  width: 100%;
+}
+
+.first-section-container {
+  background-color: #F78E69;
+  width: 100%;
+  height: 25em;
+  margin-top: 3%;
+}
+
+.first-section-container h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.first-section-container p {
+  text-align: center;
+  padding: 2em 2em 0 2em;
+  font-size: 18px;
+}
+
+.second-panda {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 25em;
+  background-position: center;
+  object-fit: cover;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.second-section {
+  background-color: #ABE188;
+  height: 30em;
+  width: 100%;
+}
+
+.second-section h1{
+  text-align: center;
+  margin-top: 2em;
+}
+
+.pictures {
+  padding: 0 2em;
+}
+.images {
+  border: 1em solid #fff;
+  margin-top: 2em;
+}
+
+.footer-line {
+  background-color: #F78E69;
+  width: 100%;
+  height: 4em;
+}
+
+.footer-line h2 {
+  font-weight: 700;
+  padding-right: 3em;
+}
+
